@@ -56,17 +56,17 @@ const HomePage = () => {
                 Let AI be your guide to a more intuitive, engaging, and
                 productive educational experience.
               </p>
-              <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
+              <div className="flex relative items-center justify-center mt-8 md:mt-12 w-full">
                 <Link
                   href="/chat"
-                  className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none"
+                  className="flex flex-wrap items-center justify-center w-max rounded-full border-t border-foreground/30 md:bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none"
                 >
-                  <p className="text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:pr-0">
+                  <p className="hidden md:block text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:pr-0">
                     {""} Explore Your Learning Potential!
                   </p>
                   <Button
                     size="sm"
-                    className="rounded-full hidden lg:flex border border-foreground/20"
+                    className="rounded-full flex border border-foreground/20"
                   >
                     Get Started
                     <ArrowRight className="w-4 h-4 ml-1" />
