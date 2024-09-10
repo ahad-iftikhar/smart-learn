@@ -49,10 +49,10 @@ const HomePage = () => {
             </button>
 
             <div className="flex flex-col items-center mt-8 max-w-3xl w-11/12 md:w-full">
-              <h1 className="text-4xl md:text-6xl lg:textxl md:!leading-snug font-semibold text-center bg-clip-text bg-gradient-to-b from-gray-50 to-gray-50 text-transparent">
+              <h1 className="text-3xl md:text-6xl lg:textxl md:!leading-snug font-semibold text-center bg-clip-text bg-gradient-to-b from-gray-50 to-gray-50 text-transparent">
                 Transform Your Learning Experience with AI
               </h1>
-              <p className="text-base md:text-lg text-foreground/80 mt-6 text-center">
+              <p className="text-base md:text-md text-foreground/80 mt-6 text-center">
                 Let AI be your guide to a more intuitive, engaging, and
                 productive educational experience.
               </p>
@@ -81,8 +81,8 @@ const HomePage = () => {
                 <Image
                   src="/assets/dashboard.jpg"
                   alt="banner image"
-                  width={1200}
-                  height={1200}
+                  width={1130}
+                  height={1130}
                   quality={100}
                   className="rounded-md lg:rounded-xl bg-foreground/10 shadow-2xl ring-1 ring-border"
                 />
