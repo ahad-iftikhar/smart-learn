@@ -81,8 +81,8 @@ const HomePage = () => {
                 <Image
                   src="/assets/dashboard.jpg"
                   alt="banner image"
-                  width={1000}
-                  height={1000}
+                  width={1050}
+                  height={1050}
                   quality={100}
                   className="rounded-md lg:rounded-xl bg-foreground/10 shadow-2xl ring-1 ring-border"
                 />
