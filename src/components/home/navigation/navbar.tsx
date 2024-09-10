@@ -15,7 +15,7 @@ const Navbar = async () => {
           <div className="flex items-start">
             <Link href="/" className="flex items-center gap-2">
               <Typography
-                sx={{ fontWeight: "bold", color: "#0A79DF", fontSize: "21px" }}
+                sx={{ fontWeight: "bold", color: "#EAF0F1", fontSize: "21px" }}
               >
                 <span className="md:text-3xl font-bold ">SmartLearn</span>
               </Typography>
